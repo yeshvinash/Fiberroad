@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiberRoad | Solution</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/favicon" href="favicon.ico" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+    <link rel="stylesheet" href="./assets/stylesheets/responsive.css">
+
+
+    <style>
+        .solutions-hero {
+            position: relative;
+            z-index: 1;
+        }
+
+        .solutions-hero::after {
+            content: '';
+            position: absolute;
+            width: 65.8rem;
+            height: 25.3rem;
+            background-color: var(--orange);
+            filter: blur(456px);
+            opacity: 0.8;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER START -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <button class="navbar-toggler hamburger md-values" id="hamburger-1" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+                <a href="index.html" class="header-logo">
+                    <img src="./assets/images/logo/header-logo.svg" alt="FIBERRORAD">
+                </a>
+                <div class="header-link-wrap">
+                    <a href="index.html" class="header-link">Home</a>
+                    <ul class="header-link-dropdown header-link">
+                        <li><a href="javascript:void(0)">About Us <i class="flex-center" class="flex-center"
+                                    data-icon="downArrow"></i></a>
+                            <ul>
+                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                <li><a href="javascript:void(0)">Dropdown</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                        <li><a href="javascript:void(0)">Dropdown</a>
+                                            <ul>
+                                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0)">Submenu - 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="header-link-dropdown header-link">
+                        <li><a href="javascript:void(0)">Products <i class="flex-center" data-icon="downArrow"></i></a>
+                            <ul>
+                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                <li><a href="javascript:void(0)">Dropdown</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                        <li><a href="javascript:void(0)">Dropdown</a>
+                                            <ul>
+                                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0)">Submenu - 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="header-link-dropdown header-link">
+                        <li><a href="javascript:void(0)">Solutions <i class="flex-center" data-icon="downArrow"></i></a>
+                            <ul>
+                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                <li><a href="javascript:void(0)">Dropdown</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                        <li><a href="javascript:void(0)">Dropdown</a>
+                                            <ul>
+                                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0)">Submenu - 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="header-link-dropdown header-link">
+                        <li><a href="javascript:void(0)">Resources <i class="flex-center" data-icon="downArrow"></i></a>
+                            <ul>
+                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                <li><a href="javascript:void(0)">Dropdown</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                        <li><a href="javascript:void(0)">Dropdown</a>
+                                            <ul>
+                                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0)">Submenu - 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="header-link-dropdown header-link">
+                        <li><a href="javascript:void(0)">Supports <i class="flex-center" data-icon="downArrow"></i></a>
+                            <ul>
+                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                <li><a href="javascript:void(0)">Dropdown</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                        <li><a href="javascript:void(0)">Dropdown</a>
+                                            <ul>
+                                                <li><a href="javascript:void(0)">Submenu - 1</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0)">Submenu - 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex srch-lang-wrap align-items-center">
+                    <div class="srch-bar">
+                        <button class="orange-btn small flex-center search-btn"><i class="flex-center"
+                                data-icon="search"></i><span>Search</span></button>
+                        <div class="search-box" style="display: none;">
+                            <input type="search" placeholder="Search">
+                        </div>
+                    </div>
+                    <select name="lang-selection" id="lang-selection" class="header-select custom-select">
+                        <option value="EN">EN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- _begin > Hero section > AVN  -->
+    <section class="solutions-hero space-bottom blur-objects">
+        <div class="container">
+            <div class="hero-content-wrap">
+                <div class="text-center hero-header">
+                    <h2 class="title text-dark-gray fw-600 text-uppercase">
+                        IIoT: A strong foundation for a <span class="text-orange">Smart</span> Lamppost
+                    </h2>
+                    <span class="text-orange fw-600 h6 d-inline-block text-center">2022-07-20</span>
+                    <p class="mb-0">The smart lamppost is an essential element of the smart city. With IIoT installed,
+                        smart
+                        lampposts
+                        can provide more than just light and other integrated smart functions that benefit people
+                        nearby. A
+                        smart lamppost can provide wireless access, environmental monitoring, surveillance, lighting,
+                        and
+                        charging for electric vehicles. Smart Street Lighting offer benefits such as public safety,
+                        wireless
+                        network coverage, and reduced energy consumption.</p>
+                </div>
+                <div class="lamp-img-wrap">
+                    <img src="./assets/images/cover/lamp.png" alt="lamp" class="img contain-img">
+                </div>
+                <div class="hero-light-description-wrap hero-description-spacing text-center">
+                    <h4 class="text-dark-gray fw-600">Considerations for the construction of Smart Street Lighting</h4>
+                    <p>The smart street lighting system can be a network node for a Smart city. The contractors should
+                        be aware of different existing systems and technologies:</p>
+                    <div class="hero-content-list-wrap">
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">Compatibility</span>
+                        </div>
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">Network redundancy</span>
+                        </div>
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">Data security</span>
+                        </div>
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">Network Scalability</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-light-working-wrap hero-description-spacing text-center">
+                    <h4 class="text-dark-gray fw-600">How does IIoT work for Smart Street Lighting?</h4>
+                    <p>IIoT is a network of devices connected to an industrial network device. These devices collect
+                        data and then analyze it to help improve efficiency. The entire IIoT network consists of:</p>
+                    <div class="hero-content-list-wrap">
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">connected devices that can sense,
+                                communicate
+                                and store information about themselves;</span>
+                        </div>
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">analytics and applications that
+                                generate
+                                information from raw data;</span>
+                        </div>
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">public and private data
+                                communications
+                                infrastructure;</span>
+                        </div>
+                        <div class="d-flex">
+                            <span><i class="flex-center mr-4" data-icon="checkDoubleLine"></i></span>
+                            <span class="text-break text-dark-gray fw-400 text-left">storage for the data that is
+                                generated by the
+                                IIoT devices;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- _ends > Hero section > AVN  -->
+
+    <!-- _begin > Network Switch section > AVN  -->
+    <section class="network-switch space-bottom  fiberroad-section-bg">
+        <div class="container">
+            <div class="solutions-wrap text-center">
+                <h2 class="title text-dark-gray fw-600 text-uppercase">
+                    Fiberroad <span class="text-orange">All-in-One</span> Industrial Network Switch
+                </h2>
+                <div class="solutions-wrap-desc">
+                    <p>Each <a href="javscript:void(0)" class="custom-link">PoE++ port</a>
+                        can deliver up to 90 watts of
+                        power. It is compatible with wireless access
+                        points, IP cameras, and IP monitors.</p>
+                    <p>2xRS485/422/232 Serial Port with 2400-115200bps Baud Rate, which available to connect with IIoT
+                        Sensors</p>
+                    <p class="mb-0">This optical SFP fiber has a bandwidth of 20G, which extends the network connection
+                        and increases bandwidth for higher performance.</p>
+                </div>
+                <div class="network-switch-img-wrap">
+                    <img src="./assets/images/cover/network.jpg" alt="network" class="img cover-img">
+                </div>
+                <div class="solutions-wrap-desc">
+                    <p>MSTP/ERPSv2 enables you to build a redundant industrial Ethernet network. QoS allows you to
+                        prioritize specific high-performance applications, ensuring that overall data traffic flows
+                        smoothly.</p>
+                    <p>Configure, Manage and Monitor each of the lamppost’s PoE switches via Fiberroad WebGUI, NMS and
+                        Cloud/MQTT. Standardized network management protocol provides conditions to manage smart lamp
+                        posts anytime, anywhere.</p>
+                    <p class="mb-0">Comprehensive Security and Authentication strategy are utilized to provide powerful
+                        protection
+                        against network threats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- _ends > Network Switch section > AVN  -->
+
+    <!-- _begin > Fiberroad table section > AVN  -->
+    <section class="space-top fiberroad-table">
+        <div class="container">
+            <!-- first table end -->
+            <div class="table-responsive fiberroad-feature-table-space">
+                <table class="table  text-center fiberroad-feature-table">
+                    <tbody>
+                        <tr class="table-image-row">
+                            <td class="table-logo-wrap table-space-43">
+                                <div class="table-top-left-radius">
+                                    <span class="position-relative table-logo-wrapper">
+                                        <img src="./assets/images/logo/table-logo.svg" class="img contain-img"
+                                            alt="product">
+                                    </span>
+                                </div>
+                            </td>
+                            <td class="table-space-43 table-cell-border-top">
+                                <span class="d-flex flex-column align-items-center">
+                                    <span class="logo-img-wrap">
+                                        <img src="./assets/images/cover/product.png" class="img contain-img"
+                                            alt="product">
+                                    </span>
+                                    <span class="fw-500 text-dark-gray h4 mb-0">FR-7M3424P</span>
+                                </span>
+                            </td>
+                            <td class="table-space-43 table-last-child-cell">
+                                <span class="d-flex flex-column align-items-center table-last-child-logo">
+                                    <span class="logo-img-wrap">
+                                        <img src="./assets/images/cover/product.png" class="img contain-img"
+                                            alt="product">
+                                    </span>
+                                    <span class="fw-500 text-dark-gray h4 mb-0">FR-7M348FP</span>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="table-orange-bg table-space-20">
+                                <span class="text-orange h4">Ethernet Interface</span>
+                            </td>
+                        </tr>
+                        <tr class="table-gray-bg">
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">Model</span></td>
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">FR-7M3424P</span></td>
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">FR-7M348FP</span></td>
+                        </tr>
+                        <tr class="table-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Ports</span></td>
+                            <td class="table-space-30">
+                                <span class="d-block table-td-spacing">24×10/100/1000M Base-TX RJ45</span>
+                                <span class="d-block">4X100/1000M Base-X SFP Uplink</span>
+                            </td>
+                            <td class="table-space-30">
+                                <span class="d-block table-td-spacing">16×10/100/1000M Base-TX RJ45</span><span
+                                    class="d-block">12×100/1000M Base-X SFP</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Port Mode(Tx)</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Auto-Negotiation , Full/Half Duplex Mode , Auto MDI/MDI-X
+                                    Connection </span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Standards</span></td>
+                            <td class="table-space-10" colspan="2">
+                                <span class="d-block table-td-spacing">IEEE 802.3 for 10BaseT , IEEE 802.3u for
+                                    100BaseT(X)100BaseFX
+                                    , IEEE 802.3ab for 1000BaseT(X)</span>
+                                <span class="d-block table-td-spacing">IEEE 802.3z for 1000BaseSX/LX/LHX/ZX , IEEE
+                                    802.3x for flow
+                                    control , IEEE 802.1D-2004 for Spanning Tree Protocol ,</span>
+                                <span class="d-block table-td-spacing">
+                                    IEEE 802.1w for Rapid Spanning Tree Protocol , IEEE 802.1p for Class of Service ,
+                                    IEEE 802.1Q for VLAN Tagging</span>
+                                <span class="d-block">IEEE 802.1X for authentication , IEEE 802.3ad for Port Trunk with
+                                    LACP</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Packet Buffer Size</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">4Mbits</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Maximum Packet Length</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Up to 10K</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>MAC Address Table</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">8K</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Transmission Mode</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Store and Forward (full/half duplex mode)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Exchange Property</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Delay time: < 7μs , Backplane bandwidth: 56Gbps</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>IGMP Group</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">4096</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Max. No. of VLAN</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">256</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>VLAN ID Range</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">VID 1 to 4094</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="table-orange-bg table-space-20">
+                                <span class="text-orange h4">Physical Characteristics</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Housing</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Aluminium case</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>IP Rating</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">IP40</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Dimensions</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">155mmx128mmx88mm</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Dimensions</span></td>
+                            <td class="table-space-30 "><span>Installation</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">DIN Rail/Wall Mount</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Dimensions</span></td>
+                            <td class="table-space-30 "><span>Weight</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">1.35kg</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="table-orange-bg table-space-20">
+                                <span class="text-orange h4">Environmental</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Dimensions</span></td>
+                            <td class="table-space-30 "><span>Operating Temperature</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">-40℃~75℃ (-40 to 167 ℉)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Operating Humidity</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">5%~90% (non-condensing)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Storage Temperature</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">-40℃~85℃ (-40 to 185 ℉)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>MTBF</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">907,476 hours @ Telcordia SR-332 Standard</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Heat Dissipation</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">65 BTU/h (non-PoE mode)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Cooling</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Passive Cooling, Fanless Design</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Noise Level</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">0 dBA</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="table-orange-bg table-space-20">
+                                <span class="text-orange h4">Ethernet Software Features</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Redundancy Protocols</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Support STP/RSTP/ERPSv2 , Link Aggregation</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Multicast Support</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Support IGMP Snooping V1/V2/V3 , support GMRP, GVMP,802.1Q</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>VLAN</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Support IEEE 802.1Q 4K VLAN , support QINQ, Double VLAN</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Time Management</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">SNTP</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>QOS</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block table-td-spacing">Flow-based redirection , Flow-based rate limiting
+                                    , Flow-based packet filtering</span>
+                                <span class="d-block table-td-spacing">8*Output queues of each port 802.1p/DSCP priority
+                                    mapping , Diff-Serv QoS, Priority Mark/Remark</span>
+                                <span class="d-block">Queue Scheduling Algorithm (SP, WRR,
+                                    SP+WRR)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>ACL</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block table-td-spacing">Port-based Issuing ACL , ACL based on port and
+                                    VLAN ,</span>
+                                <span class="d-block table-td-spacing">L2 to L4 packet filtering, matching first 80
+                                    bytes message. , Diff-Serv QoS, Priority Mark/Remark</span>
+                                <span class="d-block table-td-spacing">Queue Scheduling Algorithm (SP, WRR,
+                                    SP+WRR)</span>
+                                <span class="d-block">Provide ACL based on MAC, Destination MAC
+                                    address, IP Source, Destination IP, IP Protocol Type, TCP/UDP Port, TCP/UDP Port
+                                    Range, VLAN, etc</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Diagnostic Maintenance</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Support port mirroring, Syslog, Ping</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Management Function</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Support CLI , WEB , SNMPv1/v2/v3 , Telnet server for management ,
+                                    EEE, LLDP , DHCP Server/Client(IPv4/IPv6) , Cloud/MQTT</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Alarm Management</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Support 1 way relay alarm output , RMON, TRAP</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Security</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block table-td-spacing">Broadcast Storm Protection , HTTPS/SSLv3, AAA &
+                                    RADIUS ,</span>
+                                <span class="d-block table-td-spacing">SSH2.0 Support DHCP Snooping , Option 82，802.1X
+                                    security access , Support user hierarchical management</span>
+                                <span class="d-block table-td-spacing">ACL access control list , Support DDOS ,
+                                    port-based MAC filtering/binding , MAC black holes , IP source</span>
+                                <span class="d-block">protection, Port isolation, ARP message speed
+                                    limit</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- first table end -->
+
+            <!-- second table start -->
+            <div class="table-responsive">
+                <table class="table table-bordered fiberroad-feature-table text-center mb-0">
+                    <tbody>
+                        <tr>
+                            <td colspan="5" class="table-orange-bg table-space-20">
+                                <span class="text-orange h4">Ethernet Interface</span>
+                            </td>
+                        </tr>
+                        <tr class="table-gray-bg">
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">Model</span></td>
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">FR-7M3424P</span></td>
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">FR-7M348FP </span>
+                            </td>
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">FR-7M3424BT </span>
+                            </td>
+                            <td class="table-space-30"><span class="text-dark-gray fw-500 h6">FR-7M348FBT </span>
+                            </td>
+                        </tr>
+                        <tr class="table-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>PoE Ports</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Port 1 to 16/24 IEEE802.3af/at @PoE+</span>
+                            </td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Port 1 to 16/24 IEEE802.3af/at/bt @PoE++</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Power Supply Pin</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Default: 1/2(+), 3/6(-)</span>
+                            </td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">Default: 1/2(+), 3/6(-) or 4/5(+), 7/8(-)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Max Power Per Port</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">30W</span>
+                            </td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">90W</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Total PWR /Input Voltage</span></td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">480W(DC48-56V) (Model dependent)</span>
+                            </td>
+                            <td class="table-space-30" colspan="2">
+                                <span class="d-block">720W(DC48-56V) (Model dependent)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Power Consumption</span></td>
+                            <td class="table-space-30" colspan="4">
+                                <span class="d-block">24 Watts Max(without PoE load)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Power Inputs</span></td>
+                            <td class="table-space-30" colspan="4">
+                                <span class="d-block">2</span>
+                            </td>
+                        </tr>
+                        <tr class="table-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Input Voltage</span></td>
+                            <td class="table-space-30" colspan="4">
+                                <span class="d-block">9-56VDC, Redundant dual inputs</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Operating Voltage</span></td>
+                            <td class="table-space-30" colspan="4">
+                                <span class="d-block">Non-PoE Mode: 9-56VDC , 30W PoE Mode: 48-56VDC , 90W PoE Mode:
+                                    52-56VDC(IEEE802.3bt model)</span>
+                            </td>
+                        </tr>
+                        <tr class="table-white-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Connector</span></td>
+                            <td class="table-space-30" colspan="4">
+                                <span class="d-block">1 removable 6-contact terminal blocks , Pin 1/2 for Power 1,
+                                    Pin 3/4 for Power 2, Pin 5/6 for fault alarm</span>
+                            </td>
+                        </tr>
+                        <tr class="table-light-gray-bg">
+                            <td class="table-space-30 h6 fw-500"><span>Protection</span></td>
+                            <td class="table-space-30" colspan="4">
+                                <span class="d-block">Overload Current Protection, Reverse Polarity
+                                    Protection</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- second table end -->
+        </div>
+    </section>
+    <!-- _ends > Fiberroad table section > AVN  -->
+
+    <!-- _begin >Case Study section > AVN  -->
+    <section class="case-study space-bottom space-top">
+        <div class="container">
+            <div class="case-study-wrap text-center">
+                <div class="case-content-wrap">
+                    <div class="case-study-wrap-title">
+                        <h2 class="title text-dark-gray fw-600 text-uppercase">
+                            Featured case <span class="text-orange">study</span>
+                        </h2>
+                        <span class="d-inline-block mb-0 text-dark-gray h4 fw-600">IIoT Technology for Efficient
+                            Management of Commercial Solar Power
+                            Plants </span>
+                    </div>
+                    <div class="case-study-wrap-img">
+                        <img src="./assets/images/cover/feature.jpg" alt="feature" class="cover-img img">
+                    </div>
+                </div>
+                <p>Commercial solar farms are typically scattered over remote sites. IIoT technology is emerging
+                    as a popular solution to efficiently monitor and manage the remotely distributed assets on a
+                    solar farm. Check out how Moxa’s ready-to-run IIoT gateways are bridging the gap between OT
+                    and IT systems to simplify remote data transfer in commercial solar farms.</p>
+                <button class="orange-btn flex-center big mx-auto">
+                    Learn More<i class="flex-center ml-4" data-icon="btnArrow"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- _ends >Case Study section > AVN  -->
+
+    <!-- _begin >Solutions section > AVN  -->
+    <section class="solutions space-bottom fiberroad-section-bg">
+        <div class="container">
+            <div class="solutions-wrap text-center">
+                <h2 class="title text-dark-gray fw-600 text-uppercase">
+                    Why Fiberroad Solution Suits for Smart Lamppost <span class="text-orange">Applications?</span>
+                </h2>
+                <div class="lamppost-img">
+                    <img src="./assets/images/cover/lamppost-application.jpg" alt="solutions-img" class="cover-img img">
+                </div>
+                <div class="solutions-wrap-desc">
+                    <p>This all-aluminium case is compact and ideal for installation in a smart lamp post. There is no
+                        fan or air hole, so it is completely sealed.</p>
+                    <p>This smart lamp post with Fiberroad Industrial Network device can operate under a wide
+                        temperature range, from -40 to +75℃, making it ideal for outdoor use.</p>
+                    <p class="mb-0">Unified access protocol (Serial over Ethernet, <a href="javscript:void(0)"
+                            class="custom-link">Power over
+                            Ethernet</a>, Ethernet over
+                        Fiber). One
+                        Industrial PoE Switch fulfils the connection needs of the single smart lamppost.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- _ends >Solutions section > AVN  -->
+
+    <!-- _begin > Applications section > AVN  -->
+    <section class="applications space-top">
+        <div class="container">
+            <div class="application-content-wrap">
+                <h2 class="title text-center text-dark-gray fw-600 text-uppercase">
+                    Your Guide to IIoT <span class="text-orange">Applications</span>
+                </h2>
+                <div class="applications-card-box">
+                    <div class="applications-item-card d-flex flex-column">
+                        <div>
+                            <div class="application-items-card-icon flex-center mb-4">
+                                <i class="d-inline-block" data-icon="applicationNote"></i>
+                            </div>
+                            <h4 class="text-dark-gray fw-500 mb-3">Application Note</h4>
+                            <p class="mb-3"> Learn how Moxa’s IIoT solutions enable efficient data transfer to IT-based
+                                cloud services,
+                                enabling digital transformation of your...</p>
+                        </div>
+                        <div class="mt-auto">
+                            <button class="orange-btn  big d-flex align-items-center">
+                                Read more<i class="flex-center ml-4" data-icon="btnArrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="applications-item-card d-flex flex-column">
+                        <div>
+                            <div class="application-items-card-icon flex-center mb-4">
+                                <i class="d-inline-block" data-icon="applicationNote"></i>
+                            </div>
+                            <h4 class="text-dark-gray fw-500 mb-3">Application Note</h4>
+                            <p class="mb-3">Check out how Moxa’s IIoT gateways pave the way for edge-to-cloud data
+                                aggregation...</p>
+                        </div>
+                        <div class="mt-auto">
+                            <button class="orange-btn  big d-flex align-items-center">
+                                Read more<i class="flex-center ml-4" data-icon="btnArrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="applications-item-card d-flex flex-column">
+                        <div>
+                            <div class="application-items-card-icon flex-center mb-4">
+                                <i class="d-inline-block" data-icon="applicationNote"></i>
+                            </div>
+                            <h4 class="text-dark-gray fw-500 mb-3">Application Note</h4>
+                            <p class="mb-3">Check out how Moxa’s ready-to-run IIoT gateways are bridging the gap between
+                                OT
+                                and IT systems to simplify...</p>
+                        </div>
+                        <div class="mt-auto">
+                            <button class="orange-btn  big d-flex align-items-center">
+                                Read more<i class="flex-center ml-4" data-icon="btnArrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="applications-item-card d-flex flex-column">
+                        <div>
+                            <div class="application-items-card-icon flex-center mb-4">
+                                <i class="d-inline-block" data-icon="video"></i>
+                            </div>
+                            <h4 class="text-dark-gray fw-500 mb-3">Video</h4>
+                            <p class="mb-4"> Learn more about Moxa's market-leading IIoT solutions for reliable, secure,
+                                and
+                                cloud-connected edge intelligence...</p>
+                        </div>
+                        <div class="mt-auto">
+                            <button class="orange-btn  big d-flex align-items-center">
+                                Read more<i class="flex-center ml-4" data-icon="btnArrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="applications-item-card d-flex flex-column">
+                        <div>
+                            <div class="application-items-card-icon flex-center mb-4">
+                                <i class="d-inline-block" data-icon="techNote"></i>
+                            </div>
+                            <h4 class="text-dark-gray fw-500 mb-3">Tech Note</h4>
+                            <p class="mb-3"> Learn more about Moxa's market-leading IIoT solutions for reliable, secure,
+                                and
+                                cloud-connected edge intelligence...</p>
+                        </div>
+                        <div class="mt-auto">
+                            <button class="orange-btn  big d-flex align-items-center">
+                                Read more<i class="flex-center ml-4" data-icon="btnArrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="applications-item-card d-flex flex-column">
+                        <div>
+                            <div class="application-items-card-icon flex-center mb-4">
+                                <i class="d-inline-block" data-icon="techNote"></i>
+                            </div>
+                            <h4 class="text-dark-gray fw-500 mb-3">Tech Note</h4>
+                            <p class="mb-3"> Check out how Moxa IIoT gateway's integrated Azure Device Twin facilitates
+                                better communication and device...</p>
+                        </div>
+                        <div class="mt-auto">
+                            <button class="orange-btn  big d-flex align-items-center">
+                                Read more<i class="flex-center ml-4" data-icon="btnArrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- _ends > Applications section > AVN  -->
+
+    <!-- _begin > Conclusion section > AVN  -->
+    <section class="space-bottom space-top">
+        <div class="container">
+            <div class="conclusion-wrap text-center">
+                <h2 class="h2 text-uppercase fw-600 text-dark-gray">Conclusion</h2>
+                <p class="fw-400 mb-0">Smart lamp posts are the foundation of a smart city. They integrate with IIoT
+                    Industrial Network
+                    devices, preventing recurrence, saving investment, reducing maintenance, and effectively using
+                    resources. Therefore, equipment such as charging piles, data acquisition, and forwarding equipment
+                    needs to be monitored to ensure the safety of road lighting and other operating conditions.</p>
+            </div>
+        </div>
+    </section>
+    <!-- _ends > Conclusion section > AVN  -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container">
+            <div class="footer-content-wrap">
+                <div class="footer-logo-content">
+                    <a href="index.html" class="footer-logo">
+                        <img src="./assets/images/logo/footer-logo.svg" alt="FIBERRORAD">
+                    </a>
+                    <p>When you visit or interact with our sites, services or tools, we or our authorised service
+                        providers may
+                        use cookies for storing information to help provide you with a better, faster and safer
+                        experience and for
+                        marketing purposes.</p>
+                    <div class="social-link-wrap">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                            <i class="flex-center" data-icon="facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="social-link">
+                            <i class="flex-center" data-icon="twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="social-link">
+                            <i class="flex-center" data-icon="youtube"></i>
+                        </a>
+                        <a href="https://in.linkedin.com/" target="_blank" class="social-link">
+                            <i class="flex-center" data-icon="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-solution-wrap footer-line footer-mt">
+                    <h6 class="footer-title">Solutions</h6>
+                    <a href="javascript:void(0)" class="footer-top-link">Ethernet of Things</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Time Sensitive Networking(TSN)</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Smart City Solution</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Edge Network</a>
+                </div>
+                <div class="footer-resource-wrap footer-line footer-mt">
+                    <h6 class="footer-title">Resources</h6>
+                    <a href="javascript:void(0)" class="footer-top-link">Success Stories</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Articles</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Glossary</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Downloads</a>
+                </div>
+                <div class="footer-support-wrap footer-line footer-mt">
+                    <h6 class="footer-title">Supports</h6>
+                    <a href="javascript:void(0)" class="footer-top-link">Contact Us</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Technical Support</a>
+                    <a href="javascript:void(0)" class="footer-top-link">Warranty & Repair Policy</a>
+                    <a href="javascript:void(0)" class="footer-top-link">FAQs</a>
+                </div>
+                <div class="footer-contact-wrap footer-line footer-mt">
+                    <h6 class="footer-title">Contact Us</h6>
+                    <a href="mailto:support@fiberroad.com" class="footer-top-link">
+                        <i class="flex-center" data-icon="gmail"></i> support@fiberroad.com
+                    </a>
+                    <a href="tel:+852 66493409" class="footer-top-link">
+                        <i class="flex-center" data-icon="call"></i> +852 66493409
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">©2023 Fiber Road. All Rights reserved.</p>
+                <div class="footer-bottom-link-wrap">
+                    <a href="javascript:void(0)" class="footer-bottom-link">Support</a>
+                    <a href="javascript:void(0)" class="footer-bottom-link">Terms & Condition</a>
+                    <a href="javascript:void(0)" class="footer-bottom-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- JS -->
+    <script src="./assets/scripts/jquery-3.3.0.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="./assets/scripts/bootstrap.bundle.min.js"></script>
+    <!-- CUSTOM -->
+    <script src="./assets/scripts/custom-icon.js"></script>
+    <script src="./assets/scripts/custom.js"></script>
+</body>
+
+</html>
