@@ -1,16 +1,23 @@
 # Fiberroad
-- **Description:**
 At Fiberroad, we focus on delivering high-quality, robust communication solutions for various industries. Our solutions are built to support businesses in growing their network infrastructure, ensuring dependable communication across diverse environments.
 
-- **Features:**
-  1. High reliability and stability in extreme conditions.
-  2. Network Management
-  3. Optical Transport Network Series
-  4. Industrial Ethernet Switch Series
-  5. Fiber Media Converter Series, etc.
+## Features
+  - High reliability and stability in extreme conditions.
+  - Network Management
+  - Optical Transport Network Series
+  - Industrial Ethernet Switch Series
+  - Fiber Media Converter Series, etc.
 
-- **Technologies Used:**
+## Technologies Used
   HTML, CSS, JavaScript
+
+## Installation
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   
+   ```bash
+     https://github.com/yeshvinash/Fiberroad.git
+     cd Fiberroad
+   ```
   
-- **Clone the Repository:**
-https://github.com/yeshvinash/Fiberroad.git
