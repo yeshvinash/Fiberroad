@@ -17,7 +17,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
    
    ```bash
-     https://github.com/yeshvinash/Fiberroad.git
+     git clone https://github.com/yeshvinash/Fiberroad.git
      cd Fiberroad
    ```
   
